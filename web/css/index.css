@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 1rem;
+}
+
+.form-group {
+    padding: 1rem;
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-group input {
+    padding: .6rem;
+    border-radius: .3rem;
+}
+
+.form-group button {
+    padding: .5rem;
+    border-radius: .3rem;
+    background: white;
+    border: solid 2px rgb(158, 255, 74);
+    transition: ease-in-out .3s;
+}
+
+.form-group button:hover {
+    background-color: rgb(158, 255, 74);
+    cursor: pointer;
+}
+
+.customers-table {
+    padding: 1rem;
+}
